@@ -27,6 +27,7 @@ module.exports = {
                             name (file) {
                                 return "[path][name].[ext]"
                             },
+                            // publicPath: ""
                             publicPath: function(url) {
                                 return url.replace("../", "/assets/")
                             }
